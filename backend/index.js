@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const db = require("diskdb");
 const bodyParser = require("body-parser");
-const { compareAsc } = require("date-fns");
 
 require("./lib/cron");
 
